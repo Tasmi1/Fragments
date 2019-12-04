@@ -14,11 +14,12 @@
         android:text="Load first fragment"
         android:layout_margin="20dp"/>
 
-    <LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:orientation="vertical"
-        android:id="@+id/fragmentContainer"
+        android:orientation="vertical">
+
     </LinearLayout>
 
 
